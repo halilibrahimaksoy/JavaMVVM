@@ -7,7 +7,7 @@
 
         <variable
             name="userDetail"
-            type="com.haksoy.veloxitydemo.model.User" />
+            type="com.haksoy.mvvmdemo.model.User" />
 
     </data>
 

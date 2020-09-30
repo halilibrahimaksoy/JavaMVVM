@@ -1,6 +1,3 @@
 <resources>
-    <string name="app_name">VeloxityDemo</string>
-    <string name="com.twitter.sdk.android.CONSUMER_KEY">kGgYNBTsZzOd7NVLVfSYq5AYJ</string>
-    <string name="com.twitter.sdk.android.CONSUMER_SECRET">lPpDLJzRfnjHFC41NJHKFPlz97sY4b3BsZxtdRXjR3dV449PEm</string>
-    <string name="app_details">This demo application was made for VELOXIY Company.\nUsing library and thecnologies : Retrofit, Picasso, Recyclerview, Data Binding.\nUsing Design Architecture : Mvvm. \nUsing API : Twitter login api  and rondom user api(randomuser.me)\n You can login with any twitter user. \nThe application will show random users. If you click any user, you can see other details about this user .and additional when you go end of the list , application will add new random users. </string>
+    <string name="app_name">MvvmDemo</string>
 </resources>

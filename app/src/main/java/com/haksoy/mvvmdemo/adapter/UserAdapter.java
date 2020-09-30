@@ -1,15 +1,15 @@
-package com.haksoy.veloxitydemo.adapter;
+package com.haksoy.mvvmdemo.adapter;
 
-import android.databinding.DataBindingUtil;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.databinding.DataBindingUtil;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.haksoy.veloxitydemo.R;
-import com.haksoy.veloxitydemo.databinding.ItemUserAutocompleteBinding;
-import com.haksoy.veloxitydemo.model.User;
+import com.haksoy.mvvmdemo.R;
+import com.haksoy.mvvmdemo.databinding.ItemUserAutocompleteBinding;
+import com.haksoy.mvvmdemo.model.User;
 
 import java.util.ArrayList;
 

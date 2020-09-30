@@ -1,8 +1,8 @@
-package com.haksoy.veloxitydemo.model;
+package com.haksoy.mvvmdemo.model;
 
-import android.arch.lifecycle.MutableLiveData;
+import androidx.lifecycle.MutableLiveData;
 
-import com.haksoy.veloxitydemo.service.RetrofitClient;
+import com.haksoy.mvvmdemo.service.RetrofitClient;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,7 @@ public class UserRepository {
 
     public MutableLiveData<List<User>> getMutableLiveData() {
         if (mutableLiveData.getValue() == null || mutableLiveData.getValue().isEmpty()) {
-            Call<UserListResponse> call = RetrofitClient.getUserList(10);
+            Call<UserListResponse> call = RetrofitClient.getUserList(50);
             call.enqueue(new Callback<UserListResponse>() {
                 @Override
                 public void onResponse(Call<UserListResponse> call, Response<UserListResponse> response) {

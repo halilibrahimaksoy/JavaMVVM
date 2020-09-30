@@ -1,4 +1,4 @@
-package com.haksoy.veloxitydemo.model;
+package com.haksoy.mvvmdemo.model;
 
 import java.util.List;
 

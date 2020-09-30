@@ -1,26 +1,24 @@
-package com.haksoy.veloxitydemo.ui;
+package com.haksoy.mvvmdemo.ui;
 
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.haksoy.veloxitydemo.R;
-import com.haksoy.veloxitydemo.adapter.UserAdapter;
-import com.haksoy.veloxitydemo.model.User;
-import com.haksoy.veloxitydemo.viewModel.UserListViewModel;
+import com.haksoy.mvvmdemo.R;
+import com.haksoy.mvvmdemo.adapter.UserAdapter;
+import com.haksoy.mvvmdemo.model.User;
+import com.haksoy.mvvmdemo.viewModel.UserListViewModel;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static android.nfc.tech.MifareUltralight.PAGE_SIZE;
 
 
 public class UserListFragment extends Fragment {

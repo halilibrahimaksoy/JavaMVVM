@@ -1,6 +1,6 @@
-package com.haksoy.veloxitydemo.service;
+package com.haksoy.mvvmdemo.service;
 
-import com.haksoy.veloxitydemo.model.UserListResponse;
+import com.haksoy.mvvmdemo.model.UserListResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

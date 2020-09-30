@@ -1,14 +1,13 @@
 
-package com.haksoy.veloxitydemo.ui;
+package com.haksoy.mvvmdemo.ui;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
-import android.widget.Toast;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AppCompatActivity;
 
-import com.haksoy.veloxitydemo.R;
-import com.haksoy.veloxitydemo.adapter.UserAdapter;
-import com.haksoy.veloxitydemo.model.User;
+import com.haksoy.mvvmdemo.R;
+import com.haksoy.mvvmdemo.adapter.UserAdapter;
+import com.haksoy.mvvmdemo.model.User;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -19,10 +18,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        if (getIntent() != null) {
-            String userName = getIntent().getStringExtra("username");
-            Toast.makeText(getApplicationContext(), "Welcome " + userName, Toast.LENGTH_SHORT).show();
-        }
+//        if (getIntent() != null) {
+//            String userName = getIntent().getStringExtra("username");
+//            Toast.makeText(getApplicationContext(), "Welcome " + userName, Toast.LENGTH_SHORT).show();
+//        }
         userListFragment = new UserListFragment(new UserAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(User item) {

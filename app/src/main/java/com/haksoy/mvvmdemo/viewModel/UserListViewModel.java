@@ -1,12 +1,12 @@
-package com.haksoy.veloxitydemo.viewModel;
+package com.haksoy.mvvmdemo.viewModel;
 
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
-import android.arch.lifecycle.LiveData;
-import android.support.annotation.NonNull;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.LiveData;
+import androidx.annotation.NonNull;
 
-import com.haksoy.veloxitydemo.model.User;
-import com.haksoy.veloxitydemo.model.UserRepository;
+import com.haksoy.mvvmdemo.model.User;
+import com.haksoy.mvvmdemo.model.UserRepository;
 
 import java.util.List;
 

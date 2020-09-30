@@ -1,4 +1,4 @@
-package com.haksoy.veloxitydemo;
+package com.haksoy.mvvmdemo;
 
 import org.junit.Test;
 

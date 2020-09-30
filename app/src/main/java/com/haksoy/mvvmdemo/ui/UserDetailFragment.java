@@ -1,16 +1,16 @@
-package com.haksoy.veloxitydemo.ui;
+package com.haksoy.mvvmdemo.ui;
 
 
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.haksoy.veloxitydemo.R;
-import com.haksoy.veloxitydemo.databinding.FragmentUserDetailBinding;
-import com.haksoy.veloxitydemo.model.User;
+import com.haksoy.mvvmdemo.R;
+import com.haksoy.mvvmdemo.databinding.FragmentUserDetailBinding;
+import com.haksoy.mvvmdemo.model.User;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -1,4 +1,4 @@
-package com.haksoy.veloxitydemo;
+package com.haksoy.mvvmdemo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
